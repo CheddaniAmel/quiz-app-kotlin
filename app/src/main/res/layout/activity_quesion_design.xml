@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cybersecurity">
+
+    <ImageView
+
+        android:id="@+id/imagesection"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/designsection"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESIGN"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/maincolor"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical"
+
+        android:orientation="horizontal">
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="10"
+            android:minHeight="50dp"
+            android:indeterminate="false"
+            android:progress="0"
+            />
+        <TextView
+            android:id="@+id/tv_progess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColorHint="#7A8089"
+            android:textSize="14sp"
+            android:text="5/10"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_quesiton"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="150dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/maincolor"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangleques"
+        android:text="Which one is Microsoft’s inclusive design principle" />
+
+    <Button
+        android:id="@+id/stchoice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/loginbutton"
+        android:text="use descriptive aLT tags" />
+
+    <Button
+        android:id="@+id/ndchoice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+
+        android:background="@drawable/loginbutton"
+        android:text="use descriptive aLT tags" />
+
+    <Button
+        android:id="@+id/rdchoice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+
+        android:background="@drawable/loginbutton"
+        android:text="use descriptive aLT tags" />
+
+    <Button
+        android:id="@+id/thchoice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/loginbutton"
+        android:text="use descriptive aLT tags" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_vertical">
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="177dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:background="@drawable/clicked_button"
+            android:textColor="@color/white"
+            android:text="submit" />
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="88dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="right"
+            android:background="@drawable/clicked_button"
+            android:textColor="@color/white"
+            android:text="NEXT" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
